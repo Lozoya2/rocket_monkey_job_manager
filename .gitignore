@@ -1,0 +1,4 @@
+#Untracked files
+config/login.yml
+.DS_Store
+Gemfile.lock
