@@ -7,7 +7,7 @@ unless File.exist?(File.expand_path(File.dirname(__FILE__))+'/config/login.yml')
   puts 'Error: Create and configure /config/login.yml from login_template.yml'
   exit
 end
-debugger
+
 @client = JenkinsApi::Client.new(YAML.load_file(File.expand_path(
   "../../config/login.yml", __FILE__)))
 
